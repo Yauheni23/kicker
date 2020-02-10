@@ -1,0 +1,9 @@
+[submodule "kicker-angular"]
+	path = kicker-angular
+	url = https://github.com/Yauheni23/kicker-angular.git
+[submodule "kicker-react-native"]
+	path = kicker-react-native
+	url = https://github.com/Yauheni23/kicker-react-native.git
+[submodule "kicker-backend"]
+	path = kicker-backend
+	url = https://github.com/Yauheni23/kicker-backend.git
