@@ -26,20 +26,22 @@
 2. Установить зависимости: ```npm install```
 3. Создать БД(PostgreSQL)
 4. Создать файл ***.env*** и заполнить по примеру ***.env.example***
-4. Сгенирировать БД командой: ```npm run database```
-5. Запустить сервер: ```npm start```
+5. Сгенирировать БД командой: ```npm run database```
+6. Запустить сервер: ```npm start```
 * FrontEnd: 
 1. Войти в папку: ```cd/kicker-angular```
 2. Установить зависимости: ```npm install```
 3. Изменить ***serverAddress*** на ваш адрес сервера в файле *src/app/constant.ts* 
 4. Запустить приложение: ```npm start```
-* Mobile application:
+* Mobile application
+(Требование: bucket на AWS с директорией image):
 1. Войти в папку: ```cd/kicker-react-native```
 2. Установить зависимости: ```npm install```
 3. Изменить ***serverAddress*** на ваш адрес сервера в файле *constants/server.js* 
-3. Запустить приложение: ```npm start```
-4. Установить на ваш мобильный телефон приложение ***Expo*** из Google Play
-5. Просканировать код
+4. Создать файл ***env.js*** и заполнить по примеру ***env.example.js***
+5. Запустить приложение: ```npm start```
+6. Установить на ваш мобильный телефон приложение ***Expo*** из Google Play
+7. Просканировать код
 
 ## Лицензия 
 The MIT License
